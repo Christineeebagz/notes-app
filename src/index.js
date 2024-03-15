@@ -9,8 +9,7 @@
 //     <App />
 //   </React.StrictMode>
 // );
-// // const PORT = process.env.PORT || 3000;
-// // server.listen(PORT, () => console.log('Server is running on port ' + PORT));
+
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -23,3 +22,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => console.log('Server is running on port ' + PORT));
